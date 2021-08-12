@@ -1,0 +1,34 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+main img {
+    width: 110%;
+}
+
+.main-text {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 0 1.5rem;
+
+    text-align: center;
+}
+
+.main-text h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 2.75rem;
+    color: $black;
+
+    padding: 0 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.main-text p {
+    color: $gray;
+    font-size: 1rem;
+}
