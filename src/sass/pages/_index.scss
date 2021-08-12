@@ -6,3 +6,36 @@ body {
     line-height: $body-line-height;
     font-size: $body-font-size;
 }
+
+.transition-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .vertical-line {
+        height: 5.25rem;
+        border: 1px solid $gray;
+
+        mix-blend-mode: normal;
+        opacity: 0.25;
+    }
+
+    .circle-number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 4rem;
+        height: 4rem;
+
+        background-color: $white;
+
+        border: 1px solid rgba(135, 135, 157, 0.25);
+        border-radius: 50%;
+
+        color: $gray;
+        font-weight: $black-weight;
+
+    }
+}
