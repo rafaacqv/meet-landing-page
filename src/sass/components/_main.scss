@@ -38,6 +38,8 @@ main img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 4rem;
 }
 
 .button {
@@ -51,6 +53,8 @@ main img {
     
     border: 0;
     border-radius: 1.813rem;
+
+    transition: all 0.2s ease;
 }
 
 .main-download {
@@ -62,11 +66,17 @@ main img {
     span {
         color: lightblue;
     }
+
+    &:hover {
+        background: hsla(192, 54%, 64%, 1);
+    }
 }
 
 .main-what-is {
     padding: 1rem 1.813rem;
-    margin-bottom: 5rem;
-
     background-color: $dark-purple;
+
+    &:hover {
+        background: hsla(267, 54%, 71%, 1);
+    }
 }
