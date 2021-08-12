@@ -32,3 +32,41 @@ main img {
     color: $gray;
     font-size: 1rem;
 }
+
+.main-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    cursor: pointer;
+    text-align: center;
+    
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 1rem;
+    line-height: $body-line-height;
+    font-weight: $black-weight;
+    
+    border: 0;
+    border-radius: 1.813rem;
+}
+
+.main-download {
+    padding: 1rem 2.5rem;
+    margin-bottom: 1rem;
+
+    background-color: $dark-green;
+
+    span {
+        color: lightblue;
+    }
+}
+
+.main-what-is {
+    padding: 1rem 1.813rem;
+    margin-bottom: 5rem;
+
+    background-color: $dark-purple;
+}
