@@ -1,20 +1,21 @@
 footer {
-    background-image: url(../../../assets/mobile/image-footer.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
     text-align: center;
     color: $white;
 
     padding: 5.75rem 1.5rem 4.5rem;
     margin-top: -2rem;
 
+    background-color: $dark-green;
+
+    position: relative;
+
     h2 {
         font-size: 2rem;
         line-height: 2.25rem;
         font-weight: $black-weight;
         margin-bottom: 1.5rem;
+
+        position: relative;
     }
 
     p {
@@ -22,6 +23,8 @@ footer {
         font-size: 1.125rem;
         line-height: 1.625rem;
         margin-bottom: 2rem;
+
+        position: relative;
     }
 
     button {
@@ -38,6 +41,8 @@ footer {
 
         background-color: $dark-purple;
 
+        position: relative;
+
         &:hover {
             background: hsla(267, 54%, 71%, 1);
         }
@@ -46,4 +51,17 @@ footer {
             color: $light-purple;
         }
     }
+}
+
+footer::before {
+    content: "";
+    background-image: url('../../../assets/mobile/image-footer.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    
+    opacity: 0.1;
 }
