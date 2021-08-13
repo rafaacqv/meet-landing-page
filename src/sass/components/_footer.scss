@@ -1,0 +1,44 @@
+footer {
+    text-align: center;
+    color: $white;
+
+    padding: 5.75rem 1.5rem 4.5rem;
+    margin-top: -2rem;
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.25rem;
+        font-weight: $black-weight;
+        margin-bottom: 1.5rem;
+    }
+
+    p {
+        font-weight: $medium-weight;
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+        margin-bottom: 2rem;
+    }
+
+    button {
+        cursor: pointer;
+
+        border: 0;
+        border-radius: 1.813rem;
+        padding: 1rem 2.5rem;
+
+        color: hsla(0, 0%, 100%, 1);
+        font-size: 1rem;
+        line-height: 1.625rem;
+        font-weight: $black-weight;
+
+        background-color: $dark-purple;
+
+        &:hover {
+            background: hsla(267, 54%, 71%, 1);
+        }
+        
+        span {
+            color: $light-purple;
+        }
+    }
+}
