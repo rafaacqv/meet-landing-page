@@ -99,3 +99,14 @@ section {
         margin-bottom: 4rem;
     }
 }
+
+@media only screen and (min-width: 37.5rem) {
+    .pictures {
+        padding: 0 2.5rem;
+
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+
+        gap: 0.6875rem;
+    }
+}
