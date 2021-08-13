@@ -6,7 +6,6 @@ footer {
     margin-top: -2rem;
 
     background-color: $dark-green;
-
     position: relative;
 
     h2 {
@@ -53,7 +52,7 @@ footer {
     }
 }
 
-footer::before {
+footer::before{
     content: "";
     background-image: url('../../../assets/mobile/image-footer.jpg');
     background-size: cover;
