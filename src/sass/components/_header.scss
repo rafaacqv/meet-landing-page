@@ -4,3 +4,10 @@ header {
 
     margin: 3rem 0 3.375rem 0;
 }
+
+// For Desktop
+@media only screen and (min-width: 48rem) {
+    header {
+        margin: 5rem 0 3.8125rem 0;
+    }
+}
