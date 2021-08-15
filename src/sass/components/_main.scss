@@ -1,8 +1,11 @@
+// Image bubbles, main image
+
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     overflow-x: hidden;
 }
 
@@ -14,11 +17,13 @@ main img {
     display: none;
 }
 
+// Main text, main buttons
+
 .main-text {
     margin-top: 3rem;
     margin-bottom: 2rem;
-    padding: 0 1.5rem;
-
+    
+    padding: 0 1.25rem;
     text-align: center;
 }
 
@@ -27,8 +32,6 @@ main img {
     font-weight: 900;
     line-height: 2.75rem;
     color: $black;
-
-    padding: 0 1.75rem;
     margin-bottom: 1.5rem;
 }
 
