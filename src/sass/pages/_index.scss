@@ -5,6 +5,14 @@ body {
     font-weight: $medium-weight;
     line-height: $body-line-height;
     font-size: $body-font-size;
+
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    min-width: 320px;
+    max-width: 1920px;
 }
 
 .transition-number {
