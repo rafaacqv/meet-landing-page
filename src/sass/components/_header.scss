@@ -1,13 +1,15 @@
 header {
     display: flex;
     justify-content: center;
-
-    margin: 3rem 0 3.375rem 0;
+    
+    margin-bottom: 3.375rem;
+    padding-top: 3rem;
 }
 
-// For Desktop
+// Desktop Screen Styles
 @media only screen and (min-width: 48rem) {
     header {
-        margin: 5rem 0 3.8125rem 0;
+        padding-top: 5rem;
+        margin-bottom: 3.8125rem;
     }
 }
