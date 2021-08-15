@@ -1,3 +1,7 @@
+html {
+    font-size: 14px;
+}
+
 body {
     background-color: $white;
     
@@ -74,7 +78,16 @@ body {
 }
 
 section {
-    text-align: center; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .text-description {
+        width: 90%;
+        text-align: center; 
+    }
+    
     
     .overline {
         font-family: $font-family;
@@ -91,7 +104,6 @@ section {
         font-size: 2rem;
         line-height: 2.25rem;
         font-weight: $black-weight;
-        padding: 0 2rem;
         color: $black;
 
         margin-bottom: 2rem;
@@ -102,7 +114,6 @@ section {
         line-height: 1.625rem;
         font-weight: $medium-weight;
         color: $gray;
-        padding: 0 1.5rem;
 
         margin-bottom: 4rem;
     }
