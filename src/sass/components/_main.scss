@@ -102,3 +102,32 @@ main img {
         margin-right: 1rem;
     }
 }
+
+// For Desktop
+@media only screen and (min-width: 48rem) {
+    .mobile-main-img {
+        display: none;
+    }
+
+    main {
+        position: relative;
+        overflow: hidden;
+    }
+
+    main img {
+        width: 20%;
+        max-width: 24.625rem;
+    }
+
+    main img:nth-child(2) {
+        position: absolute;
+        top: 0;
+        left: -1.5%;
+    }
+
+    main img:nth-child(3) {
+        position: absolute;
+        top: 0;
+        right: -1.5%;
+    }
+}
