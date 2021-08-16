@@ -76,6 +76,23 @@ footer::before{
     opacity: 0.1;
 }
 
+@media only screen and (min-width: 438px) {
+    footer {
+        p {
+            padding: 2rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 456px) {
+    footer {
+        h2 {
+            padding: 0 2rem;
+        }
+    }
+}
+
+
 @media only screen and (min-width: 37.5rem) {
     footer {
         padding: 0;
