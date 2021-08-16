@@ -19,6 +19,10 @@ body {
     max-width: 1920px;
 }
 
+.content-wrapper {
+    max-width: 426.6px;
+}
+
 .transition-number {
     display: flex;
     flex-direction: column;
@@ -118,6 +122,13 @@ section {
         margin-bottom: 4rem;
     }
 }
+
+@media only screen and (min-width: 340px) {
+    html {
+        font-size: 16px;
+    }
+}
+
 
 @media only screen and (min-width: 37.5rem) {
     .pictures {
