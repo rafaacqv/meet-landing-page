@@ -177,6 +177,10 @@ section {
 }
 
 @media only screen and (min-width: 600px) {
+    .content-wrapper {
+        max-width: 603px;
+    }
+    
     .pictures {
         padding: 0 2.5rem;
 
@@ -187,15 +191,62 @@ section {
     }
 
     section {
+        .text-description {
+            width: 75%;
+        }
+
         h2 {
             font-size: 2.5rem;
             line-height: 2.75rem;
+            padding: 0;
         }
 
         .description {
             margin-bottom: 5rem;   
         }
     }
+}
 
+@media only screen and (min-width: 611px) {
+    section {
+        h2 {
+            padding: 0 1rem;
+        }
+    }
+}
 
+@media only screen and (min-width: 653px) {
+    section {
+        h2 {
+            padding: 0 2rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 696px) {
+    section {
+        h2{
+            padding: 0 3rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 739px) {
+    section {
+        h2 {
+            padding: 0 4rem;
+        }
+
+        .description {
+            padding: 0 1rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 781px) {
+    section {
+        h2 {
+            padding: 0 4.5rem;
+        }
+    }
 }
