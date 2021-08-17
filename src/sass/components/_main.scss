@@ -92,6 +92,7 @@ main img {
     }
 }
 
+// Mobile Media Queries
 @media only screen and (min-width: 331px) {
     .main-text h1 {
         padding: 0 1.8rem;
@@ -136,33 +137,22 @@ main img {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 37.5rem) {
+// Tablet Media Queries
+@media only screen and (min-width: 600px) {
     .main-text {
-        padding: 0 9.6875rem;
+        width: 60%;
+        max-width: 487px;
     }
-
+    
     .main-text h1 {
         font-size: 3rem;
         line-height: 3rem;
 
-        padding: 0 3.75rem;
+        padding: 0 1.5rem;
+    }
+
+    .main-text p {
+        padding: 0 1.5rem;
     }
 
     .main-buttons {
@@ -175,7 +165,39 @@ main img {
     }
 }
 
-// For Desktop
+@media only screen and (min-width: 665px) {
+    .main-text h1 {
+        padding: 0 2.5rem;
+    }
+
+    .main-text p {
+        padding: 0 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 719px) {
+    .main-text h1 {
+        padding: 0 3.5rem;
+    }
+
+    .main-text p {
+        padding: 0 3.5rem;
+    }
+}
+
+@media only screen and (min-width: 772px) {
+    .main-text h1 {
+        padding: 0 4.5rem;
+    }
+
+    .main-text p {
+        padding: 0 4.5rem;
+    }
+}
+
+
+
+/*
 @media only screen and (min-width: 48rem) {
     .mobile-main-img {
         display: none;
@@ -203,3 +225,4 @@ main img {
         right: -1.5%;
     }
 }
+*/
