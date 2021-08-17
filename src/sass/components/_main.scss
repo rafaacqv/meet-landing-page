@@ -193,10 +193,8 @@ main img {
     }
 }
 
-
-
-/*
-@media only screen and (min-width: 48rem) {
+// Desktop Media Queries
+@media only screen and (min-width: 800px) {    
     .mobile-main-img {
         display: none;
     }
@@ -206,9 +204,10 @@ main img {
         overflow: hidden;
     }
 
-    main img {
-        width: 20%;
-        max-width: 24.625rem;
+    .desktop-main-img {
+        display: flex;
+        width: 25%;
+        max-width: 394px;
     }
 
     main img:nth-child(2) {
@@ -222,5 +221,6 @@ main img {
         top: 0;
         right: -1.5%;
     }
+
+
 }
-*/
