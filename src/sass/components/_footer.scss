@@ -76,10 +76,11 @@ footer::before{
     opacity: 0.1;
 }
 
+// Mobile Media Queries
 @media only screen and (min-width: 438px) {
     footer {
         p {
-            padding: 2rem;
+            padding:0 2rem;
         }
     }
 }
@@ -92,30 +93,36 @@ footer::before{
     }
 }
 
-
-@media only screen and (min-width: 37.5rem) {
+// Tablet Media Queries
+@media only screen and (min-width: 600px) {
     footer {
+        .footer-content {
+            width: 75%;
+        }
+
         padding: 0;
-        
+
         h2 {
             font-size: 2.5rem;
             line-height: 2.75rem;
-
-            padding: 5.75rem 9.75rem 2rem;
+            margin-bottom: 2rem;
         }
 
         p {
-            padding: 0 6rem;
             margin-bottom: 2.5rem;
+            padding: 0;
         }
-
-        button {
-            margin-bottom: 4.12rem;
-        }
-
     }
 
     footer::before{
         background-image: url('../../../assets/tablet/image-footer.jpg');
+    }
+}
+
+@media only screen and (min-width: 750px) { 
+    footer {
+        p {
+            padding: 0 1rem;
+        }
     }
 }
