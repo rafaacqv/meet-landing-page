@@ -222,5 +222,35 @@ main img {
         right: -1.5%;
     }
 
+    .main-text {
+        width: 40%;
+        margin-top: 0;
+    }
+    
+    .main-text h1 {
+        font-size: 2.5rem;
+        padding: 0 3rem;
+    }
 
+    .main-text p {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .main-text h1 {
+        padding: 0 4rem;
+    }
+}
+
+@media only screen and (min-width: 920px) {
+    .main-text h1 {
+        padding: 0 5rem;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .main-text h1 {
+        padding: 0 6rem
+    }
 }
