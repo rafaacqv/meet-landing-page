@@ -250,7 +250,56 @@ main img {
 }
 
 @media only screen and (min-width: 990px) {
+    .main-text {
+        max-width: 424px;
+    }
+    
     .main-text h1 {
         padding: 0 6rem
+    }
+}
+
+@media only screen and (min-width: 1060px) {
+    .main-text h1 {
+        padding: 0 7rem;
+    }
+}
+
+@media only screen and (min-width: 1185px) {
+    .main-text {
+        max-width: 635px;
+    }
+
+    .main-text h1 {
+        font-size: 3rem;
+        padding: 0 5rem;
+    }
+}
+
+@media only screen and (min-width: 1278px) {
+    .main-text h1 {
+        padding: 0 6rem;
+    }
+}
+
+@media only screen and (min-width: 1358px) {
+    .main-text h1 {
+        padding: 0 7rem;
+    }
+}
+
+@media only screen and (min-width: 1438px) {
+    .main-text h1 {
+        padding: 0 8rem;
+    }
+
+    .main-text p {
+        padding: 0 4.5rem;
+    }
+}
+
+@media only screen and (min-width: 1518px) {
+    .main-text h1 {
+        padding: 0 9rem;
     }
 }
