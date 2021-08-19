@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [my-solution]()
-- Live Site URL: [live-solution]()
+- Solution URL: [my-solution](https://www.frontendmentor.io/solutions/responsive-meet-landing-page-using-htmlcsssass-dWZL6AX4Q)
+- Live Site URL: [live-solution](https://rafaacqv.github.io/meet-landing-page/)
 
 ## My Process
 
