@@ -129,10 +129,10 @@ section {
     }
 }
 
-@media only screen and (min-width: 323px) {
+@media only screen and (min-width: 320px) {
     section {
         h2 {
-            padding: 0 1rem;
+            width: 288px;
         }
     }
 }
@@ -145,39 +145,11 @@ section {
 
     section {
         h2 {
-            padding: 0;
+            width: 300px;
         }
-    }
-}
 
-@media only screen and (min-width: 369px) {
-    section {
-        h2 {
-            padding: 0 1rem;
-        }
-    }
-}
-
-@media only screen and (min-width: 369px) {
-    section {
-        h2 {
-            padding: 0 1rem;
-        }
-    }
-}
-
-@media only screen and (min-width: 405px) {
-    section {
-        h2 {
-            padding: 0 2rem;
-        }
-    }
-}
-
-@media only screen and (min-width: 440px) {
-    section {
-        h2 {
-            padding: 0 3rem;
+        p {
+            max-width: 410px;
         }
     }
 }
@@ -211,7 +183,7 @@ section {
         }
 
         .description {
-            width: 70%;
+            width: 100%;
             max-width: 570px;
             margin-bottom: 5rem;   
         }
