@@ -13,6 +13,10 @@ footer {
         color: $white;
 
         padding: 5.75rem 0 4.5rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
 
@@ -77,18 +81,10 @@ footer::before{
 }
 
 // Mobile Media Queries
-@media only screen and (min-width: 438px) {
+@media only screen and (min-width: 437px) {
     footer {
-        p {
-            padding:0 2rem;
-        }
-    }
-}
-
-@media only screen and (min-width: 456px) {
-    footer {
-        h2 {
-            padding: 0 2rem;
+        h2 , p {
+            width: 393px;
         }
     }
 }
@@ -100,8 +96,6 @@ footer::before{
             width: 75%;
         }
 
-        padding: 0;
-
         h2 {
             font-size: 2.5rem;
             line-height: 2.75rem;
@@ -111,6 +105,9 @@ footer::before{
         p {
             margin-bottom: 2.5rem;
             padding: 0;
+
+            width: 100%;
+            max-width: 573px;
         }
     }
 
@@ -119,27 +116,11 @@ footer::before{
     }
 }
 
-@media only screen and (min-width: 750px) { 
-    footer {
-        p {
-            padding: 0 1rem;
-        }
-    }
-}
-
-@media only screen and (min-width: 770px) {
-    footer {
-        h2 {
-            padding: 0 3rem;
-        }
-    }
-}
-
 // Desktop Media Queries
 @media only screen and (min-width: 800px) {
     footer {
         .footer-content {
-            width: 50%;
+            width: 75%;
             max-width: 495px;
         }
     }
@@ -149,18 +130,11 @@ footer::before{
     }
 }
 
-@media only screen and (min-width: 979px) {
-    footer {
-        p {
-            padding: 0 1.5rem;
-        }
-    }
-}
-
 @media only screen and (min-width: 1440px) {
     footer {
         .footer-content {
             display: flex;
+            flex-direction: row;
             justify-content: space-around;
             align-items: center;
 
