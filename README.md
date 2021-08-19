@@ -1,8 +1,8 @@
-# Frontend Mentor | meet Landing Page
+# Frontend Mentor | Meet Landing Page
 
 Frontend Mentor challenge solution. <br /> 
 
-Challenge link: [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR)
+Challenge link: [Frontend Mentor | Meet landing page coding challenge](https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR)
 
 ## Table of contents
 
