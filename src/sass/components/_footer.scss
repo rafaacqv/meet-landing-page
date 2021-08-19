@@ -130,7 +130,56 @@ footer::before{
 @media only screen and (min-width: 770px) {
     footer {
         h2 {
-            padding: 3rem;
+            padding: 0 3rem;
+        }
+    }
+}
+
+// Desktop Media Queries
+@media only screen and (min-width: 800px) {
+    footer {
+        .footer-content {
+            width: 50%;
+            max-width: 495px;
+        }
+    }
+
+    footer::before{
+        background-image: url('../../../assets/desktop/image-footer.jpg');
+    }
+}
+
+@media only screen and (min-width: 979px) {
+    footer {
+        p {
+            padding: 0 1.5rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    footer {
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            width: 75%;
+            max-width: 1400px;
+
+            h2 {
+                padding: 0;
+                margin: 0;
+
+                max-width: 350px;
+            }
+
+            p {
+                padding: 0;
+                margin: 0;
+
+                max-width: 350px;
+            }
         }
     }
 }
