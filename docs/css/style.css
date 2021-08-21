@@ -276,7 +276,7 @@ footer button span {
 
 footer::before {
   content: "";
-  background-image: url("../assets/mobile/image-footer.jpg");
+  background-image: url("../../../assets/mobile/image-footer.jpg");
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -309,7 +309,7 @@ footer::before {
   }
 
   footer::before {
-    background-image: url("../assets/tablet/image-footer.jpg");
+    background-image: url("../../../assets/tablet/image-footer.jpg");
   }
 }
 @media only screen and (min-width: 800px) {
@@ -319,7 +319,7 @@ footer::before {
   }
 
   footer::before {
-    background-image: url("../assets/desktop/image-footer.jpg");
+    background-image: url("../../../assets/desktop/image-footer.jpg");
   }
 }
 @media only screen and (min-width: 1440px) {
@@ -340,6 +340,11 @@ footer::before {
     padding: 0;
     margin: 0;
     max-width: 350px;
+  }
+}
+@media only screen and (min-width: 1570px) {
+  footer .footer-content {
+    padding: 8rem 0;
   }
 }
 html {
