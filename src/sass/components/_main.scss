@@ -106,7 +106,7 @@ main img {
 // Tablet Media Queries
 @media only screen and (min-width: 600px) {
     .main-text {
-        width: 70%;
+        width: 75%;
         max-width: 500px;
     }
     
@@ -117,8 +117,13 @@ main img {
         width: 350px
     }
 
+    .main-text p {
+        max-width: 461px;
+    }
+
     .main-buttons {
         flex-direction: row;
+        margin-bottom: 5rem;
     }
 
     .main-download {
@@ -136,6 +141,10 @@ main img {
     main {
         position: relative;
         overflow: hidden;
+    }
+
+    .main-buttons {
+        margin-bottom: 6.875rem;
     }
 
     .desktop-main-img {
