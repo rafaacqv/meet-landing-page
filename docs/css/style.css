@@ -149,7 +149,7 @@ main img {
 }
 @media only screen and (min-width: 600px) {
   .main-text {
-    width: 70%;
+    width: 75%;
     max-width: 500px;
   }
 
@@ -159,8 +159,13 @@ main img {
     width: 350px;
   }
 
+  .main-text p {
+    max-width: 461px;
+  }
+
   .main-buttons {
     flex-direction: row;
+    margin-bottom: 5rem;
   }
 
   .main-download {
@@ -176,6 +181,10 @@ main img {
   main {
     position: relative;
     overflow: hidden;
+  }
+
+  .main-buttons {
+    margin-bottom: 6.875rem;
   }
 
   .desktop-main-img {
@@ -267,7 +276,7 @@ footer button span {
 
 footer::before {
   content: "";
-  background-image: url("../../../assets/mobile/image-footer.jpg");
+  background-image: url("../assets/mobile/image-footer.jpg");
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -300,7 +309,7 @@ footer::before {
   }
 
   footer::before {
-    background-image: url("../../../assets/tablet/image-footer.jpg");
+    background-image: url("../assets/tablet/image-footer.jpg");
   }
 }
 @media only screen and (min-width: 800px) {
@@ -310,7 +319,7 @@ footer::before {
   }
 
   footer::before {
-    background-image: url("../../../assets/desktop/image-footer.jpg");
+    background-image: url("../assets/desktop/image-footer.jpg");
   }
 }
 @media only screen and (min-width: 1440px) {
@@ -510,6 +519,7 @@ section .description {
   section .text-description .description {
     padding: 0;
     width: 480px;
+    margin-bottom: 4.5rem;
   }
 }
 @media only screen and (min-width: 1185px) {
