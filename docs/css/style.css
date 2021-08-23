@@ -276,7 +276,7 @@ footer button span {
 
 footer::before {
   content: "";
-  background-image: url("../../../assets/mobile/image-footer.jpg");
+  background-image: url("../assets/mobile/image-footer.jpg");
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -309,7 +309,7 @@ footer::before {
   }
 
   footer::before {
-    background-image: url("../../../assets/tablet/image-footer.jpg");
+    background-image: url("../assets/tablet/image-footer.jpg");
   }
 }
 @media only screen and (min-width: 800px) {
@@ -319,7 +319,7 @@ footer::before {
   }
 
   footer::before {
-    background-image: url("../../../assets/desktop/image-footer.jpg");
+    background-image: url("../assets/desktop/image-footer.jpg");
   }
 }
 @media only screen and (min-width: 1440px) {
